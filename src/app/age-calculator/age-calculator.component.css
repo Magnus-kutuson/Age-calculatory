@@ -25,17 +25,32 @@
     width: 30%;
 }
 input[type='text']{
-    width: 80%;
+    width: 60%;
     height: 6vh;
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
     font-size: large;
     font-weight: bolder;
-    /* margin-right: 2rem; */
 }
 .input-group label{
-    font-size: large;
     font-weight: 700;
     padding-right: 5rem;
+}
+.component{
+    padding-left: 1rem;
+}
+legend{
+    font-weight: 900;
+    color: hsl(259, 100%, 65%);
+    font-size: larger;
+}
+legend span{
+    color: black;
+    font-size: 50px;
+}
+.mid-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
