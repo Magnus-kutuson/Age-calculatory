@@ -3,22 +3,39 @@
             <div class="inputs">
                 <div class="input-group">
                     <label>DAY</label>
-                <input type="text" placeholder="DD" name="required">
+                    <input type="text" id="day" placeholder="DD"  minlength="1"
+                    maxlength="2" name="day" required>
                 </div>
                 <div class="input-group">
-                    <label>MONTH</label>
-                <input type="text" placeholder="MM" name="required">
+                    <label for="month">MONTH</label>
+                <input type="text" id="month" placeholder="MM"   minlength="1"
+                maxlength="2"name="month" required>
                 </div>
                 <div class="input-group">
-                    <label>YEAR</label>
-                <input type="text" placeholder="YYYY" name="required">
+                    <label for="year">YEAR</label>
+                    <input type="text" id="year" placeholder="YYYY"  minlength="4"
+                    maxlength="4" name="year" required>
                 </div>   
             </div>
 
             <div class="mid-class">
-                <hr style="border: 0; height: 1px; background-color: rgb(179, 179, 179); width: 80%; margin-left: 1rem; margin-top: 30px;">
-<img src="../../assets/images/icon-arrow.svg" alt="icon-arrow">
-            </div>
+                <div id="horizontal-line">
+                    <hr />
+                    <div id="svg-arrow" onclick="ageCalculate()">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="46"
+                        height="44"
+                        viewBox="0 0 46 44"
+                      >
+                        <g fill="none" stroke="#FFF" stroke-width="2">
+                          <path
+                            d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
 
             <div class="component">
                 <legend>--<span>years</span></legend>

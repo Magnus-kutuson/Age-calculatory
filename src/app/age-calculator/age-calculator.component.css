@@ -49,8 +49,43 @@ legend span{
     color: black;
     font-size: 50px;
 }
-.mid-class{
+/* .mid-class{
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+button{
+    width: 20px;
+    height: 20px;
+    background-color: hsl(259, 100%, 65%);
+    color: #fff;
+    padding-left: 4rem;
+}
+#svg-arrow {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100%;
+    height: 4.5rem;
+    width: 4.5rem;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+}
+#svg-arrow:hover{
+    background-color: hsl(0, 0%, 8%);
+  }
+#horizontal-line {
+    width: 80%;
+    height: 3.5rem;  
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#horizontal-line>hr {
+    width: 100%;
 }
